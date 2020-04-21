@@ -804,6 +804,7 @@ GameObject:
   - component: {fileID: 1734045504}
   - component: {fileID: 1734045503}
   - component: {fileID: 1734045507}
+  - component: {fileID: 1734045508}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -895,7 +896,7 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 3e3153a9e7838f2488093b508efc6d43, type: 2}
-  m_CullingMode: 0
+  m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
@@ -903,3 +904,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1734045508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734045502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 490c5387ffa5ab84ab535ad203c932d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
